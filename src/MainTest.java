@@ -14,6 +14,6 @@ public class MainTest {
                 "1670020095",
                 "8894239889",
                 "4053971072"};
-        System.out.println("Result: " + SquareOfDigits.getMax(test));
+        System.out.println("Result: " + BusSeating.getArrangement("XXX-X-XX-X", "XXX-X-XX-X"));
     }
 }
