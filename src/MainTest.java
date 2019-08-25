@@ -1,3 +1,4 @@
+import leetcode.Q55;
 import leetcode.Q832;
 import leetcode.Q905;
 import topcoder.*;
@@ -60,8 +61,8 @@ public class MainTest {
                 "AAABBBBBBBBBBBBBBBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAA",
                 "AAAAAABBBBBBBBBBBBBBBBBBBBAAAAAAAAAAAAAAAAAAAAAAAA"
         };
-        int[] test1 = {1};
-        System.out.println(search(test1, 1));
+        int[] test1 = {0, 2, 3};
+        System.out.println(Q55.canJump(test1));
         //System.out.println("Result:" + Arrays.toString(TopographicalImage.calcPeakAreas(test)));
     }
 }
