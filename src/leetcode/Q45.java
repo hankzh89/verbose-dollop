@@ -1,7 +1,7 @@
 package leetcode;
 
-public class Q55 {
-    public static boolean canJump(int[] nums) {
+public class Q45 {
+    public static int jump(int[] nums) {
         int[] steps = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
             steps[i] = Integer.MAX_VALUE;
@@ -17,6 +17,6 @@ public class Q55 {
                 }
             }
         }
-        return steps[nums.length - 1] != Integer.MAX_VALUE;
+        return steps[nums.length - 1];
     }
 }
